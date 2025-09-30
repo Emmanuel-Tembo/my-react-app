@@ -1,0 +1,28 @@
+• Why React:
+
+1. React is compossable: can create easily reusable and interchangable pieces of the web taht can be combined in varuis ways to create complex systems
+We have small pieces that we can put together to make something
+larger or greater than the individual pieces themselves.
+2. React is Declarative (what should be done): can lean on the libray to handle the manual tedeuos tasks that we otherwise would have to worry about ourselves
+
+*Imperative* means we need to give specific step-by-step instructions on how to
+accomplish a task.
+*Declarative* means we can write our code to simply "describe" *what* should show up
+on the page and allow the rool (React, e.g.) to handle the details on *how* to 
+put those things on the page.
+
+N.B : certain files need to be imported unto a page for them to work, e.g. the css files
+React has its own bootstrap library: reactstrap or react-bootstrap
+
+• House keeping:
+1. make sure any file no matter the level of JSX is named with .JSX
+2. If images are not working its probably because u havent called it from the corect directory
+3. U can only render ONE jsx element at a time but that element can have as many childern as u want
+4. if image satting does not  work directly import it from assets 
+
+5. when writing the jsx: 
+- The outer curly braces {} tell JSX you are injecting a JavaScript expression.
+- The inner curly braces {} define the JavaScript object containing the styles.
+
+6. INLINE STYLE: In React's JSX, when defining an inline style, you must pass a standard JavaScript object. This means CSS properties are separated by commas, and the values are either numbers or quoted strings, but they should not include semicolons.
+
