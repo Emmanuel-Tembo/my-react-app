@@ -1,10 +1,21 @@
 body {
-    padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Alan Sans", sans-serif;
     background: #27292c;
     color: white;
 }
 
 h1 {
     margin-top: 30px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }

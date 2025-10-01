@@ -25,4 +25,5 @@ React has its own bootstrap library: reactstrap or react-bootstrap
 - The inner curly braces {} define the JavaScript object containing the styles.
 
 6. INLINE STYLE: In React's JSX, when defining an inline style, you must pass a standard JavaScript object. This means CSS properties are separated by commas, and the values are either numbers or quoted strings, but they should not include semicolons.
+7. <Fragments> : these are used in place of <div> so that u dont create another dom node in your html and instead code gets read as is
 

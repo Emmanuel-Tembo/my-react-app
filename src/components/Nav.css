@@ -1,0 +1,35 @@
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(35, 35, 36);
+    height: 70px;
+    font-family: "Inter", sans-serif;;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex ; 
+    font-size: 25px;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
+.nav-list-items {
+    margin-right: 10px;
+}
+
+
+.react-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.icon-text{
+    margin-left: 5px;
+    font-size: 25px;
+    color: aqua;
+    
+}
+
